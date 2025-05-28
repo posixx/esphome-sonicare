@@ -1,7 +1,7 @@
 # ESPHome package for Philips Sonicare Bluetooth-enabled toothbrushes
 
 ## Package roots and Thanks
-First of all I'd like to thank @v6a and @iamjosh for the job, they've already done. This package is a fork of @v6a' package, which is based on @iamjosh' original code.
+First of all I'd like to thank [@v6a](https://github.com/v6ak) and [@iamjosh](https://github.com/iamjoshk) for the job, they've already done. This package is a fork of [@v6a's package](https://github.com/v6ak/esphome-collection/blob/main/packages/sonicare.yaml), which is based on [@iamjosh's original code](https://github.com/iamjoshk/home-assistant-collection/tree/main/ESPHome/Sonicare).
 
 ## What is it?
 This package provides a support of Philips Sonicare Bluetooth-enabled toothbrushes for any ESP32-based device, which supports a Ble-connectivity (esp32_ble_tracker conponent). It also addresses some issues happening with original versions like connection stability and add some extra sensors.
