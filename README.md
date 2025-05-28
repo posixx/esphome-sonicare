@@ -24,8 +24,8 @@ All these sensors could be used in Home Assistant as part of Esphome intergratio
 ### Installation
 1. In oder to use this package you need to add it as a remote package or download it and add it as a local package.
 2. Provide required variables:
-   mac: "00:00:00:00:00:00"
-   id: "my_brush"
-   name: "My Brush"
+   - mac: "00:00:00:00:00:00"
+   - id: "my_brush"
+   - name: "My Brush"
 
 
