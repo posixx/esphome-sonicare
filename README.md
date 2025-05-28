@@ -30,6 +30,7 @@ All these sensors could be used in Home Assistant as part of Esphome intergratio
 
 Here is an example with a remote package:
 ```
+packages: 
   brush_1:
     url: https://github.com/andrecall/esphome-sonicare
     files:
@@ -39,6 +40,5 @@ Here is an example with a remote package:
          id: "my_brush"
          name: "My Brush"
 ```
-
 
 Further information about ESPHome packages you can find at [ESPHome website](https://esphome.io/components/packages.html)
