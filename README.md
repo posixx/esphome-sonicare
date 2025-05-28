@@ -1,10 +1,11 @@
 # ESPHome package for Philips Sonicare Bluetooth-enabled toothbrushes
 
 ## Package roots and Thanks
-First of all I'd like to thank @v6a and @iamjosh, cause this package is a fork of @v6a' package, which is based on @iamjosh' original code.
+First of all I'd like to thank @v6a and @iamjosh for the job, they've already done. This package is a fork of @v6a' package, which is based on @iamjosh' original code.
 
 ## What is it?
-This package provides a support of Philips Sonicare Bluetooth-enabled toothbrushes for any ESP32 based device, which supports a Ble-connectivity (esp32_ble_tracker conponent).
+This package provides a support of Philips Sonicare Bluetooth-enabled toothbrushes for any ESP32-based device, which supports a Ble-connectivity (esp32_ble_tracker conponent). It also addresses some issues happening with original versions like connection stability and add some extra sensors.
+
 Following sensors are currently supported:
 1. Connection status
 2. Battery level
