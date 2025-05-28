@@ -20,7 +20,7 @@ All these sensors could be used in Home Assistant as part of Esphome intergratio
 ## How to use it?
 ### Prerequisites:
 1. Your Esp32 device supports Bluetooth Low Energy connection
-2. esp32_ble_tracker component is added to the yaml-config of your esp32 device
+2. "esp32_ble_tracker" component is added to your yaml-config for a esp32 device
 
 ### Installation
 1. In oder to use this package you need to add it as a remote package or download it and add it as a local package.
