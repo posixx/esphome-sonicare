@@ -15,3 +15,17 @@ Following sensors are currently supported:
 7. Brush head installed (Adaptive Clean, Adaptive White, Tongue Care, Adaptive Gums, N/A)
 
 All these sensors could be used in Home Assistant as part of Esphome intergration.
+
+## How to use it?
+### Prerequisites:
+1. Your Esp32 device supports Bluetooth Low Ebergy connection
+2. esp32_ble_tracker component is added to the yaml-config of your esp32 device
+
+### Installation
+1. In oder to use this package you need to add it as a remote package or download it and add it as a local package.
+2. Provide required variables:
+   mac: "00:00:00:00:00:00"
+   id: "my_brush"
+   name: "My Brush"
+
+
