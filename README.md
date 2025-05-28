@@ -18,7 +18,7 @@ All these sensors could be used in Home Assistant as part of Esphome intergratio
 
 ## How to use it?
 ### Prerequisites:
-1. Your Esp32 device supports Bluetooth Low Ebergy connection
+1. Your Esp32 device supports Bluetooth Low Energy connection
 2. esp32_ble_tracker component is added to the yaml-config of your esp32 device
 
 ### Installation
@@ -27,5 +27,6 @@ All these sensors could be used in Home Assistant as part of Esphome intergratio
    - mac: "00:00:00:00:00:00"
    - id: "my_brush"
    - name: "My Brush"
+Here is an example with a remote package:
 
-
+Further information about ESPHome packages you can find at [ESPHome website](https://esphome.io/components/packages.html)
