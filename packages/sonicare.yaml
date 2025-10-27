@@ -232,6 +232,8 @@ text_sensor:
           return {"Tongue Care"};
         } else if (id(${id}_toothbrush_head_id).state == 3) {
           return {"Adaptive Gums"};
+        } else if (id(${id}_toothbrush_head_id).state == 4) {
+          return {"Premium All-in-One"};
         } else {
           return {"Unknown"};
         }
