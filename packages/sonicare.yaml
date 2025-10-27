@@ -6,7 +6,6 @@ ble_client:
     id: ${id}
     name: ${name}
     auto_connect: true
-    connection_slots: 3
     on_connect:
       then:
         - lambda: |-
